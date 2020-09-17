@@ -1,0 +1,27 @@
+.Button{
+    border : solid 1px #aaa8a8  ;
+    font-size : 40px ;
+    font-weight : bolder ;
+    display : flex ;
+    min-height : 150px ;
+    align-items: center ;
+    text-align : center ;
+    justify-content: center ;
+    min-width : 25% ;
+    cursor: pointer;
+    @media (max-width : 396px) {
+        font-size : 20px ;
+        font-weight :normal ;
+        min-height : 70px ;
+    }
+}
+.Orange{
+    background-color: #f5923e;
+    color: white;
+}
+.Norma{
+    background-color : #e0e0e0 ;
+}
+.Wide {
+    width : 50% ;
+}
